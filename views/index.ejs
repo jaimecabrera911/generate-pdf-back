@@ -1,0 +1,529 @@
+<style>
+  .title {
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  th,
+  td {
+    border: 2px solid black;
+  }
+
+  .check-bm {
+    width: 40px;
+    background-color: red;
+  }
+
+  .block-gray {
+    background-color: #C0C0C0;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .items-check {
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .items {
+    font-size: small;
+    font-weight: 600;
+  }
+
+  .items-center {
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+  }
+</style>
+<table>
+  <tr>
+    <table border='1'>
+      <tr>
+        <td width='200' colspan='2' rowspan='2'><img src='https://www.construcciones-amg.com/images/logo.png'></td>
+        <td colspan='10' class='title'>FORMATO DE SG-SST</td>
+        <td colspan='4' class='title'>CODIGO:SG-FR-86</td>
+      </tr>
+      <tr>
+        <td colspan='10' class='title'>PREOPERACIONAL DE EQUIPO DE SOLDAR</td>
+        <td colspan='4' class='title'>VERSION: 01</td>
+      </tr>
+      <tr>
+        <td colspan='8' class='items'>Equipo: <%= title %></td>
+        <td rowspan='6' colspan='8'>f</td>
+      </tr>
+      <tr>
+        <td colspan='8' class='items'>Ubicación: <%= message %></td>
+      </tr>
+      <tr>
+        <td colspan='8' class='items'>FECHA:</td>
+      </tr>
+      <tr>
+        <td colspan='8' class='items'>serial:</td>
+      </tr>
+      <tr>
+        <td colspan='8' class='items'>Marca:</td>
+      </tr>
+      <tr>
+        <td colspan='8' class='items'>Modelo:</td>
+      </tr>
+      <tr>
+        <td rowspan='3' class='block-gray'>Ítem</td>
+        <td rowspan='3' class='block-gray'>Descripción</td>
+        <td colspan='14' class='block-gray'>Estado</td>
+      </tr>
+      <tr>
+        <td colspan='2' class='block-gray'>LUN</td>
+        <td colspan='2' class='block-gray'>MAR</td>
+        <td colspan='2' class='block-gray'>MIER</td>
+        <td colspan='2' class='block-gray'>JUE</td>
+        <td colspan='2' class='block-gray'>VIE</td>
+        <td colspan='2' class='block-gray'>SAB</td>
+        <td colspan='2' class='block-gray'>DOM</td>
+      </tr>
+      <tr>
+        <td class='check-bm block-gray'>B</td>
+        <td class='check-bm block-gray'>M</td>
+        <td class='check-bm block-gray'>B</td>
+        <td class='check-bm block-gray'>M</td>
+        <td class='check-bm block-gray'>B</td>
+        <td class='check-bm block-gray'>M</td>
+        <td class='check-bm block-gray'>B</td>
+        <td class='check-bm block-gray'>M</td>
+        <td class='check-bm block-gray'>B</td>
+        <td class='check-bm block-gray'>M</td>
+        <td class='check-bm block-gray'>B</td>
+        <td class='check-bm block-gray'>M</td>
+        <td class='check-bm block-gray'>B</td>
+        <td class='check-bm block-gray'>M</td>
+      </tr>
+      <tr>
+        <td colspan='2' class='block-gray'>EQUIPO</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>1</td>
+        <td class='items-check'>Estado general</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>2</td>
+        <td class='items-check'>Sistema eléctrico (cables)</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>3</td>
+        <td class='items-check'>Condiciones del sistema de refrigeración</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>4</td>
+        <td class='items-check'>Funcionamiento del panel de control</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>5</td>
+        <td class='items-check'>Prueba del Disyuntor Diferencial (polo a tierra)</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>6</td>
+        <td class='items-check'>Estado del encendido (arranque)</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>8</td>
+        <td class='items-check'>Fuente de energía</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td colspan='2' class='block-gray'>CABLES</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>9</td>
+        <td class='items-check'>Condición de los cables</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>10</td>
+        <td class='items-check'>Sistema de aislamiento (revestimiento cables)</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>11</td>
+        <td class='items-check'>Sistema de conexión (enchufe,cable, etc.)</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>12</td>
+        <td class='items-check'>Conexión a Tierra (cable a tierra)</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>13</td>
+        <td class='items-check'>Estado de la pinza (conexión al cable)</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td colspan='2' class='block-gray'>PROTECCIÓN PERSONAL</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>14</td>
+        <td class='items-check'>Máscara de soldar</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>15</td>
+        <td class='items-check'>Pechera, delantal de cuero, polainas piernas, etc.</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>16</td>
+        <td class='items-check'>Lentes de Seguridad (Antiparras)</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>17</td>
+        <td class='items-check'>Guantes</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td class='items-check'>18</td>
+        <td class='items-check'>Protector facial</td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+        <td class='items-check'></td>
+      </tr>
+      <tr>
+        <td colspan='16' class='items'>Conforme a la presente inspección se autoriza el uso del Equipo de Soldar:</td>
+      </tr>
+      <tr>
+        <td class='items'>LUN</td>
+        <td></td>
+        <td colspan='7'></td>
+        <td colspan='7'></td>
+      </tr>
+      <tr>
+        <td class='items'>MAR</td>
+        <td></td>
+        <td colspan='7'></td>
+        <td colspan='7'></td>
+      </tr>
+      <tr>
+        <td class='items'>MIE</td>
+        <td></td>
+        <td colspan='7'></td>
+        <td colspan='7'></td>
+      </tr>
+      <tr>
+        <td class='items'>JUE</td>
+        <td></td>
+        <td colspan='7'></td>
+        <td colspan='7'></td>
+      </tr>
+      <tr>
+        <td class='items'>VIE</td>
+        <td></td>
+        <td colspan='7'></td>
+        <td colspan='7'></td>
+      </tr>
+      <tr>
+        <td class='items'>SAB</td>
+        <td></td>
+        <td colspan='7'></td>
+        <td colspan='7'></td>
+      </tr>
+      <tr>
+        <td class='items'>DOM</td>
+        <td></td>
+        <td colspan='7'></td>
+        <td colspan='7'></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class='items-center'>INSPERTOR DEL EQUIPO</td>
+        <td colspan='7' class='items-center'>SUPERVISOR</td>
+        <td colspan='7' class='items-center'>TRABAJADOR</td>
+      </tr>
+      <tr>
+        <td colspan='16' class='block-gray'>OBSERVACIONES:</td>
+      </tr>
+      <tr>
+        <td colspan='16' height='80'></td>
+      </tr>
+    </table>
+  </tr>
+</table>
